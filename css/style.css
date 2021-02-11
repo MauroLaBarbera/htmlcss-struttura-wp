@@ -14,25 +14,69 @@ body {
     margin: auto;
 }
 
+/* Clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Header */
 header {
     height: 100px;
-    margin-bottom: 15px;
+    margin: 15px 0;
     background-color: pink;
 }
 
-.topfoto {
+/* Top Section */
+.topsection {
     height: 400px;
     margin-bottom: 15px;
     background-color: yellow;
 }
 
+/* Table */
 .table {
-    height: 400px;
+    height: 600px;
     background-color: blue;
 }
 
+.colon {
+    
+    
+    
+}
+
+.table > h2 {
+    height: 50px;
+    background-color: lightblue;
+    margin-bottom: 15px;
+}
+
+.colon.colsx {
+    width: 25%;
+    height: 87%;
+    float: left;
+    background-color: lightblue;
+}
+
+.colon.central {
+    width: 48%;
+    height: 87%;
+    float: left;
+    background-color: lightblue;
+    margin: 0 1%;
+}
+
+.colon.coldx {
+    width: 25%;
+    height: 87%;
+    float: left;
+    background-color: lightblue;
+}
+/* Footer */
 footer {
+    height: 80px;
     background-color: purple;
     margin-top: 10px;
 }
