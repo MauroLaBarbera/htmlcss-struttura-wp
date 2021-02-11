@@ -21,6 +21,12 @@ header {
 }
 
 .topfoto {
-    height: 300px;
+    height: 400px;
     background-color: yellow;
 }
+
+.table {
+    height: 400px;
+    background-color: blue;
+}
+
