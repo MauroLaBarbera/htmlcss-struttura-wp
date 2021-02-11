@@ -17,11 +17,13 @@ body {
 /* Header */
 header {
     height: 100px;
+    margin-bottom: 15px;
     background-color: pink;
 }
 
 .topfoto {
     height: 400px;
+    margin-bottom: 15px;
     background-color: yellow;
 }
 
@@ -30,3 +32,7 @@ header {
     background-color: blue;
 }
 
+footer {
+    background-color: purple;
+    margin-top: 10px;
+}
